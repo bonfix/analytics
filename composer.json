@@ -3,13 +3,13 @@
     "authors": [
         {
             "name": "Bonfix Ngetich",
-            "email": "bonfixn@gmail.com"
+            "email": "bonfix.ngetich@wfp.org"
         }
     ],
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Bonfix\\DaliliAnalytics\\": "src/"
+            "Bonfix\\analytics\\": "src/"
         }
     },
     "require": {}
