@@ -6,11 +6,19 @@
             "email": "bonfix.ngetich@wfp.org"
         }
     ],
+    "type": "project",
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Bonfix\\analytics\\": "src/"
+            "Bonfix\\DaliliAnalytics\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bonfix\\DaliliAnalytics\\DaliliAnalyticsServiceProvider"
+            ]
+        }
+    }
 }
