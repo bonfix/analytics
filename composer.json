@@ -1,0 +1,16 @@
+{
+    "name": "bonfix/dalili-analytics",
+    "authors": [
+        {
+            "name": "Bonfix Ngetich",
+            "email": "bonfixn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Bonfix\\DaliliAnalytics\\": "src/"
+        }
+    },
+    "require": {}
+}
